@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+  }
+
+  .container {
+    margin: 10% auto;
+    padding: 80px 0;
+    text-align: center;
+  }
+
+  .AuthApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    padding: 1rem 0.5rem;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)), url("../../Assets/doctors.jpg");
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-size: 100% 100%;
+    position: relative;
+    width: 100%;
+    overflow: hidden; */
+    /* padding-top: 7rem; */
+    background-color: #5b91b1;
+    /* background-image: ; */
+  }
+
+  .forg_pwd_section {
+    font-size: 19px;
+    color: #fff;
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.forg_pwd_form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding-bottom: 1rem;
+}
+
+input[type="text"],
+input[type= "email"],
+input[type= "number"],
+input[type="password"],
+.forg_pwd_btn,
+textarea {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+/*class for positioning downloads and sends at the bottom right corner*/
+ .bottom_left {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+    }
